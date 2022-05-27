@@ -1,2 +1,4 @@
 # cynipini_selection_analysis
-Repository for paper using selection analysis to find genes responsible for complex gall formation
+
+This repository is used to share scripts and data for Gobbo et al., "Host manipulation by oak gall wasps: insights from evolutionary signatures in the gall-wasp genome"
+
