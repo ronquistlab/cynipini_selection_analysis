@@ -1,0 +1,259 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r23.uppmax.uu.se (AVX2, FMA3, 251 GB RAM)
+Command: ../iqtree-1.6.12-Linux/bin/iqtree -s 50-18.phy -nt 19 -m KOSI07+G+I -pre A-50-18codGIb --runs 2 -st CODON -bb 1000
+Seed:    994391 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct  6 16:25:11 2021
+Kernel:  AVX+FMA - 19 threads (20 CPU cores detected)
+
+Reading alignment file 50-18.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+Alignment has 18 sequences with 507628 columns, 299742 distinct patterns
+284537 parsimony-informative, 117287 singleton sites, 105804 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  A_curv    1.55%    failed      0.00%
+   2  A_gros    4.32%    failed      0.00%
+   3  A_qlan    4.14%    failed      0.00%
+   4  A_qram    2.11%    failed      0.00%
+   5  Aulac     1.47%    failed      0.00%
+   6  Aylax     1.18%    failed      0.00%
+   7  Belon     0.41%    failed      0.00%
+   8  Calli     4.51%    failed      0.00%
+   9  Cerop     2.97%    failed      0.04%
+  10  Diast     3.26%    failed      0.00%
+  11  Hedic     2.14%    failed      0.00%
+  12  Isoco     2.61%    failed      0.00%
+  13  Proto     8.65%    failed      0.00%
+  14  Qwaqw     3.55%    failed      0.00%
+  15  S_gif     1.38%    failed      0.00%
+  16  S_ito     1.73%    failed      0.00%
+  17  S_jap     1.18%    failed      0.00%
+  18  S_umb     0.98%    failed      0.00%
+****  TOTAL     2.68%  18 sequences failed composition chi2 test (p-value<5%; df=60)
+NOTE: minimal branch length is reduced to 0.000000196995 for long alignment
+
+---> START RUN NUMBER 1 (seed: 994391)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.264 seconds, parsimony score: 1064776 (based on 401824 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 994391)...
+
+NOTE: 11231 MB RAM (10 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 2.194 / LogL: -7815448.987
+Init pinv, alpha: 0.023, 1.000 / Estimate: 0.082, 3.547 / LogL: -7812582.254
+Init pinv, alpha: 0.046, 1.000 / Estimate: 0.087, 3.572 / LogL: -7814553.694
+Init pinv, alpha: 0.069, 1.000 / Estimate: 0.092, 3.568 / LogL: -7816879.039
+Init pinv, alpha: 0.093, 1.000 / Estimate: 0.096, 3.532 / LogL: -7819584.151
+Init pinv, alpha: 0.116, 1.000 / Estimate: 0.100, 3.481 / LogL: -7822693.044
+Init pinv, alpha: 0.139, 1.000 / Estimate: 0.000, 1.888 / LogL: -7821706.446
+Init pinv, alpha: 0.162, 1.000 / Estimate: 0.000, 1.973 / LogL: -7815092.909
+Init pinv, alpha: 0.185, 1.000 / Estimate: 0.000, 2.049 / LogL: -7809218.214
+Init pinv, alpha: 0.208, 1.000 / Estimate: 0.000, 2.114 / LogL: -7804147.081
+Optimal pinv,alpha: 0.000, 2.114 / LogL: -7804147.081
+
+Parameters optimization took 5580.391 sec
+Computing ML distances based on estimated model parameters... 4.627 sec
+Computing BIONJ tree...
+0.013 seconds
+Log-likelihood of BIONJ tree: -7776064.065
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 30.721 second
+Computing log-likelihood of 99 initial trees ... 927.080 seconds
+Current best score: -7776064.065
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7775965.677
+Iteration 10 / LogL: -7817100.469 / Time: 2h:3m:12s
+Iteration 20 / LogL: -7817583.010 / Time: 2h:15m:28s
+Finish initializing candidate tree set (14)
+Current best tree score: -7775965.677 / CPU time: 2531.415
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7853458.108 / Time: 2h:31m:51s (6h:11m:47s left)
+Iteration 40 / LogL: -7816116.391 / Time: 2h:47m:7s (4h:21m:23s left)
+Iteration 50 / LogL: -7858768.653 / Time: 3h:3m:22s (3h:10m:51s left)
+Log-likelihood cutoff on original alignment: -7776064.065
+Iteration 60 / LogL: -7839875.167 / Time: 3h:19m:38s (2h:18m:43s left)
+Iteration 70 / LogL: -7864102.841 / Time: 3h:35m:13s (1h:36m:41s left)
+Iteration 80 / LogL: -7798461.470 / Time: 3h:53m:11s (1h:1m:59s left)
+Iteration 90 / LogL: -7807207.079 / Time: 4h:9m:5s (0h:30m:47s left)
+Iteration 100 / LogL: -7836627.239 / Time: 4h:28m:58s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -7776064.065
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 4h:31m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7775965.677
+2. Current log-likelihood: -7775965.656
+3. Current log-likelihood: -7775965.637
+4. Current log-likelihood: -7775965.619
+5. Current log-likelihood: -7775965.603
+6. Current log-likelihood: -7775965.587
+7. Current log-likelihood: -7775965.574
+8. Current log-likelihood: -7775965.561
+9. Current log-likelihood: -7775965.549
+10. Current log-likelihood: -7775965.538
+Optimal log-likelihood: -7775965.529
+Nonsynonymous/synonymous ratio (omega): 1.000
+Transition/transversion ratio (kappa): 1.000
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 2.256
+Parameters optimization took 10 rounds (191.097 sec)
+BEST SCORE FOUND : -7775965.529
+Creating bootstrap support values...
+Split supports printed to NEXUS file A-50-18codGIb.splits.nex
+Total tree length: 2.220
+
+Total number of iterations: 102
+CPU time used for tree search: 198907.231 sec (55h:15m:7s)
+Wall-clock time used for tree search: 10702.843 sec (2h:58m:22s)
+Total CPU time used: 304589.979 sec (84h:36m:29s)
+Total wall-clock time used: 16493.075 sec (4h:34m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file A-50-18codGIb.splits.nex...
+18 taxa and 33 splits.
+Consensus tree written to A-50-18codGIb.contree
+Reading input trees file A-50-18codGIb.contree
+Log-likelihood of consensus tree: -7815469.787
+
+---> START RUN NUMBER 2 (seed: 995391)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.356 seconds, parsimony score: 1064488 (based on 401824 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 995391)...
+
+NOTE: 11231 MB RAM (10 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7861223.385
+2. Current log-likelihood: -7818030.218
+3. Current log-likelihood: -7818019.223
+4. Current log-likelihood: -7818014.292
+5. Current log-likelihood: -7818012.077
+6. Current log-likelihood: -7818011.079
+7. Current log-likelihood: -7818010.644
+8. Current log-likelihood: -7818010.465
+Optimal log-likelihood: -7818010.373
+Nonsynonymous/synonymous ratio (omega): 1.000
+Transition/transversion ratio (kappa): 1.000
+Proportion of invariable sites: 0.098
+Gamma shape alpha: 3.519
+Parameters optimization took 8 rounds (189.979 sec)
+Computing ML distances based on estimated model parameters... 4.566 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -7777974.483
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 31.413 second
+Computing log-likelihood of 98 initial trees ... 1009.872 seconds
+Current best score: -7777974.483
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7774011.291
+Iteration 10 / LogL: -7815257.041 / Time: 0h:50m:44s
+Iteration 20 / LogL: -7818163.547 / Time: 1h:3m:42s
+Finish initializing candidate tree set (14)
+Current best tree score: -7774011.291 / CPU time: 3615.341
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7867115.417 / Time: 1h:18m:34s (3h:12m:21s left)
+Iteration 40 / LogL: -7853723.147 / Time: 1h:33m:24s (2h:26m:4s left)
+Iteration 50 / LogL: -7834743.347 / Time: 1h:50m:58s (1h:55m:29s left)
+Log-likelihood cutoff on original alignment: -7777974.483
+Iteration 60 / LogL: -7845764.231 / Time: 2h:5m:24s (1h:27m:8s left)
+Iteration 70 / LogL: -7846760.645 / Time: 2h:22m:21s (1h:3m:57s left)
+Iteration 80 / LogL: -7826452.570 / Time: 2h:40m:52s (0h:42m:45s left)
+Iteration 90 / LogL: -7819895.898 / Time: 2h:57m:55s (0h:21m:59s left)
+Iteration 100 / LogL: -7804077.166 / Time: 3h:12m:34s (0h:1m:56s left)
+Log-likelihood cutoff on original alignment: -7777974.483
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 3h:16m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7774011.291
+2. Current log-likelihood: -7774011.216
+3. Current log-likelihood: -7774011.122
+4. Current log-likelihood: -7774011.053
+5. Current log-likelihood: -7774010.995
+6. Current log-likelihood: -7774010.925
+7. Current log-likelihood: -7774010.870
+8. Current log-likelihood: -7774010.824
+9. Current log-likelihood: -7774010.785
+10. Current log-likelihood: -7774010.737
+11. Current log-likelihood: -7774010.698
+12. Current log-likelihood: -7774010.665
+13. Current log-likelihood: -7774010.637
+14. Current log-likelihood: -7774010.614
+15. Current log-likelihood: -7774010.595
+16. Current log-likelihood: -7774010.564
+17. Current log-likelihood: -7774010.542
+18. Current log-likelihood: -7774010.523
+19. Current log-likelihood: -7774010.507
+20. Current log-likelihood: -7774010.493
+21. Current log-likelihood: -7774010.482
+Optimal log-likelihood: -7774010.473
+Nonsynonymous/synonymous ratio (omega): 1.000
+Transition/transversion ratio (kappa): 1.000
+Proportion of invariable sites: 0.020
+Gamma shape alpha: 2.542
+Parameters optimization took 21 rounds (400.946 sec)
+BEST SCORE FOUND : -7774010.473
+Creating bootstrap support values...
+Split supports printed to NEXUS file A-50-18codGIb.splits.nex
+Total tree length: 2.409
+
+Total number of iterations: 102
+CPU time used for tree search: 214121.619 sec (59h:28m:41s)
+Wall-clock time used for tree search: 11554.931 sec (3h:12m:34s)
+Total CPU time used: 224996.886 sec (62h:29m:56s)
+Total wall-clock time used: 12164.846 sec (3h:22m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file A-50-18codGIb.splits.nex...
+18 taxa and 33 splits.
+Consensus tree written to A-50-18codGIb.contree
+Reading input trees file A-50-18codGIb.contree
+Log-likelihood of consensus tree: -7815451.752
+
+---> SUMMARIZE RESULTS FROM 2 RUNS
+
+Run 2 gave best log-likelihood: -7774010.473
+Split supports printed to NEXUS file A-50-18codGIb.splits.nex
+Consensus tree written to A-50-18codGIb.contree
+Total CPU time for 2 runs: 529895.705 seconds.
+Total wall-clock time for 2 runs: 28676.816 seconds.
+
+
+Analysis results written to: 
+  IQ-TREE report:                A-50-18codGIb.iqtree
+  Maximum-likelihood tree:       A-50-18codGIb.treefile
+  Trees from independent runs:   A-50-18codGIb.runtrees
+  Likelihood distances:          A-50-18codGIb.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          A-50-18codGIb.splits.nex
+  Consensus tree:                A-50-18codGIb.contree
+  Screen log file:               A-50-18codGIb.log
+
+Date and Time: Thu Oct  7 00:23:11 2021

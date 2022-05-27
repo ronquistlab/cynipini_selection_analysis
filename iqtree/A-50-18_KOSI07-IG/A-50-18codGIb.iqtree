@@ -1,0 +1,176 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: 50-18.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 995391
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 18 sequences with 507628 codon sites
+Number of constant sites: 105804 (= 20.8428% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 105804 (= 20.8428% of all sites)
+Number of parsimony informative sites: 284537
+Number of distinct site patterns: 299742
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: KOSI07+FU+I+G4
+
+State frequencies: (user-defined)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0204
+Gamma shape alpha: 2.5524
+
+ Category  Relative_rate  Proportion
+  0         0              0.0204
+  1         0.3587         0.2449
+  2         0.7179         0.2449
+  3         1.1016         0.2449
+  4         1.9049         0.2449
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-7775965.5290
+2	-7774010.4730
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7774010.4728 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -5707966.7752
+Number of free parameters (#branches + #model parameters): 35
+Akaike information criterion (AIC) score: 15548090.9456
+Corrected Akaike information criterion (AICc) score: 15548090.9505
+Bayesian information criterion (BIC) score: 15548480.7582
+
+Total tree length (sum of branch lengths): 2.4093
+Sum of internal branch lengths: 0.6154 (25.5413% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A_curv' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---A_curv
+|
+|  +-------A_gros
++--| (100)
+|  |        +----------A_qlan
+|  |  +-----| (100)
+|  |  |     +----------Belon
+|  +--| (100)
+|     |                                         +-------Aulac
+|     |                                      +--| (100)
+|     |                                      |  +---------Isoco
+|     |                                   +--| (100)
+|     |                                   |  +----------Aylax
+|     |                    +--------------| (100)
+|     |                    |              +-------------Hedic
+|     |                 +--| (100)
+|     |                 |  |  +-----------------------------Qwaqw
+|     |                 |  +--| (100)
+|     |                 |     |                            +----S_gif
+|     |                 |     |                         +--| (100)
+|     |                 |     |                         |  |   +--S_jap
+|     |                 |     |                         |  +---| (100)
+|     |                 |     |                         |      +--S_umb
+|     |                 |     +-------------------------| (100)
+|     |                 |                               +-----S_ito
+|     |              +--| (100)
+|     |              |  +-------------------------Diast
+|     |           +--| (100)
+|     |           |  +------------------------Cerop
+|     |        +--| (100)
+|     |        |  +-----------------Proto
+|     +--------| (100)
+|              +-------------------------Calli
+|
++-----A_qram
+
+Tree in newick format:
+
+(A_curv:0.0333688014,(A_gros:0.0634074044,((A_qlan:0.0902171271,Belon:0.0877113829)100:0.0465664789,((((((((Aulac:0.0678574053,Isoco:0.0814496954)100:0.0217143675,Aylax:0.0895543431)100:0.0031038191,Hedic:0.1111836594)100:0.1195750274,(Qwaqw:0.2328054025,((S_gif:0.0449895604,(S_jap:0.0286795663,S_umb:0.0253642223)100:0.0322286137)100:0.0108296429,S_ito:0.0494776696)100:0.1999318581)100:0.0014641581)100:0.0229995019,Diast:0.2036888663)100:0.0071728228,Cerop:0.1918551697)100:0.0207030877,Proto:0.1400809989)100:0.0281861239,Calli:0.2012459189)100:0.0728872145)100:0.0090946837)100:0.0188971601,A_qram:0.0509618979);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -7815451.75200000
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--A_curv
+|
+|  +---A_gros
++--| (100)
+|  |      +-----A_qlan
+|  |  +---| (100)
+|  |  |   +-----Belon
+|  +--| (100)
+|     |                                       +---Aulac
+|     |                                    +--| (100)
+|     |                                    |  +----Isoco
+|     |                                 +--| (100)
+|     |                                 |  +-----Aylax
+|     |                       +---------| (100)
+|     |                       |         +------Hedic
+|     |                  +----| (100)
+|     |                  |    |    +--------------Qwaqw
+|     |                  |    +----| (100)
+|     |                  |         |                +--S_gif
+|     |                  |         |             +--| (100)
+|     |                  |         |             |  |  +--S_jap
+|     |                  |         |             |  +--| (100)
+|     |                  |         |             |     +--S_umb
+|     |                  |         +-------------| (100)
+|     |                  |                       +--S_ito
+|     |              +---| (100)
+|     |              |   +------------Diast
+|     |          +---| (100)
+|     |          |   +------------Cerop
+|     |     +----| (100)
+|     |     |    +-------Proto
+|     +-----| (100)
+|           +------------Calli
+|
++--A_qram
+
+
+Consensus tree in newick format: 
+
+(A_curv:0.0332387224,(A_gros:0.0600391035,((A_qlan:0.0851534172,Belon:0.0893532943)100:0.0644083708,((((((((Aulac:0.0685605434,Isoco:0.0794047755)100:0.0426980226,Aylax:0.0887408170)100:0.0397727185,Hedic:0.1080567311)100:0.1439601777,(Qwaqw:0.2181978454,((S_gif:0.0436716282,(S_jap:0.0293240391,S_umb:0.0254026376)100:0.0418672065)100:0.0346824403,S_ito:0.0519147690)100:0.2073439697)100:0.0810697946)100:0.0799238565,Diast:0.1933444675)100:0.0610488994,Cerop:0.1829189049)100:0.0676548452,Proto:0.1232499219)100:0.0727748629,Calli:0.1862199383)100:0.0952321619)100:0.0289648725)100:0.0295818270,A_qram:0.0505658309);
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  7 00:23:11 2021
+Total CPU time used: 224996.8863 seconds (62h:29m:56s)
+Total wall-clock time used: 12174.21226 seconds (3h:22m:54s)
+
