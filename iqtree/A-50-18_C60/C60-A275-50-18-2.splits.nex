@@ -1,0 +1,52 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=18;
+TAXLABELS
+[1] 'A_curv'
+[2] 'A_gros'
+[3] 'A_qlan'
+[4] 'A_qram'
+[5] 'Aulac'
+[6] 'Aylax'
+[7] 'Belon'
+[8] 'Calli'
+[9] 'Cerop'
+[10] 'Diast'
+[11] 'Hedic'
+[12] 'Isoco'
+[13] 'Proto'
+[14] 'Qwaqw'
+[15] 'S_gif'
+[16] 'S_ito'
+[17] 'S_jap'
+[18] 'S_umb'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=18 nsplits=19;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	14	 5 6 11 12 15 16 17 18,
+	260	 5 11 12,
+	140	 6 11,
+	1000	 3 7,
+	451	 14 15 16 17 18,
+	1000	 1 4,
+	1000	 5 12,
+	1000	 1 2 4,
+	600	 5 6 12,
+	1000	 1 2 3 4 7,
+	1000	 5 6 11 12,
+	1000	 1 2 3 4 7 8,
+	535	 5 6 11 12 14,
+	1000	 1 2 3 4 7 8 13,
+	1000	 1 2 3 4 7 8 9 13,
+	1000	 1 2 3 4 7 8 9 10 13,
+	1000	 17 18,
+	1000	 15 17 18,
+	1000	 15 16 17 18,
+;
+END; [Splits]
+

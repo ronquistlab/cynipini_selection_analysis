@@ -1,0 +1,231 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ../../Andricus/MSCO/4sets_275genes50codW18species/A275r50-18-3.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 329722
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 18 sequences with 123498 amino-acid sites
+Number of constant sites: 82434 (= 66.7493% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 82434 (= 66.7493% of all sites)
+Number of parsimony informative sites: 22764
+Number of distinct site patterns: 32770
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: C60+G4
+
+  No  Component      Rate    Weight   Parameters
+   1  POISSON+FC60pi1  1.0000   0.0170   POISSON+FC60pi1
+   2  POISSON+FC60pi2  1.0000   0.0212   POISSON+FC60pi2
+   3  POISSON+FC60pi3  1.0000   0.0276   POISSON+FC60pi3
+   4  POISSON+FC60pi4  1.0000   0.0066   POISSON+FC60pi4
+   5  POISSON+FC60pi5  1.0000   0.0141   POISSON+FC60pi5
+   6  POISSON+FC60pi6  1.0000   0.0069   POISSON+FC60pi6
+   7  POISSON+FC60pi7  1.0000   0.0147   POISSON+FC60pi7
+   8  POISSON+FC60pi8  1.0000   0.0067   POISSON+FC60pi8
+   9  POISSON+FC60pi9  1.0000   0.0018   POISSON+FC60pi9
+  10  POISSON+FC60pi10  1.0000   0.0102   POISSON+FC60pi10
+  11  POISSON+FC60pi11  1.0000   0.0231   POISSON+FC60pi11
+  12  POISSON+FC60pi12  1.0000   0.0058   POISSON+FC60pi12
+  13  POISSON+FC60pi13  1.0000   0.0125   POISSON+FC60pi13
+  14  POISSON+FC60pi14  1.0000   0.0204   POISSON+FC60pi14
+  15  POISSON+FC60pi15  1.0000   0.0071   POISSON+FC60pi15
+  16  POISSON+FC60pi16  1.0000   0.0118   POISSON+FC60pi16
+  17  POISSON+FC60pi17  1.0000   0.0068   POISSON+FC60pi17
+  18  POISSON+FC60pi18  1.0000   0.0434   POISSON+FC60pi18
+  19  POISSON+FC60pi19  1.0000   0.0318   POISSON+FC60pi19
+  20  POISSON+FC60pi20  1.0000   0.0222   POISSON+FC60pi20
+  21  POISSON+FC60pi21  1.0000   0.0102   POISSON+FC60pi21
+  22  POISSON+FC60pi22  1.0000   0.0150   POISSON+FC60pi22
+  23  POISSON+FC60pi23  1.0000   0.0134   POISSON+FC60pi23
+  24  POISSON+FC60pi24  1.0000   0.0148   POISSON+FC60pi24
+  25  POISSON+FC60pi25  1.0000   0.0239   POISSON+FC60pi25
+  26  POISSON+FC60pi26  1.0000   0.0129   POISSON+FC60pi26
+  27  POISSON+FC60pi27  1.0000   0.0222   POISSON+FC60pi27
+  28  POISSON+FC60pi28  1.0000   0.0247   POISSON+FC60pi28
+  29  POISSON+FC60pi29  1.0000   0.0214   POISSON+FC60pi29
+  30  POISSON+FC60pi30  1.0000   0.0115   POISSON+FC60pi30
+  31  POISSON+FC60pi31  1.0000   0.0076   POISSON+FC60pi31
+  32  POISSON+FC60pi32  1.0000   0.0130   POISSON+FC60pi32
+  33  POISSON+FC60pi33  1.0000   0.0094   POISSON+FC60pi33
+  34  POISSON+FC60pi34  1.0000   0.0467   POISSON+FC60pi34
+  35  POISSON+FC60pi35  1.0000   0.0442   POISSON+FC60pi35
+  36  POISSON+FC60pi36  1.0000   0.0322   POISSON+FC60pi36
+  37  POISSON+FC60pi37  1.0000   0.0403   POISSON+FC60pi37
+  38  POISSON+FC60pi38  1.0000   0.0150   POISSON+FC60pi38
+  39  POISSON+FC60pi39  1.0000   0.0105   POISSON+FC60pi39
+  40  POISSON+FC60pi40  1.0000   0.0215   POISSON+FC60pi40
+  41  POISSON+FC60pi41  1.0000   0.0155   POISSON+FC60pi41
+  42  POISSON+FC60pi42  1.0000   0.0102   POISSON+FC60pi42
+  43  POISSON+FC60pi43  1.0000   0.0228   POISSON+FC60pi43
+  44  POISSON+FC60pi44  1.0000   0.0123   POISSON+FC60pi44
+  45  POISSON+FC60pi45  1.0000   0.0067   POISSON+FC60pi45
+  46  POISSON+FC60pi46  1.0000   0.0010   POISSON+FC60pi46
+  47  POISSON+FC60pi47  1.0000   0.0344   POISSON+FC60pi47
+  48  POISSON+FC60pi48  1.0000   0.0114   POISSON+FC60pi48
+  49  POISSON+FC60pi49  1.0000   0.0127   POISSON+FC60pi49
+  50  POISSON+FC60pi50  1.0000   0.0124   POISSON+FC60pi50
+  51  POISSON+FC60pi51  1.0000   0.0262   POISSON+FC60pi51
+  52  POISSON+FC60pi52  1.0000   0.0065   POISSON+FC60pi52
+  53  POISSON+FC60pi53  1.0000   0.0103   POISSON+FC60pi53
+  54  POISSON+FC60pi54  1.0000   0.0142   POISSON+FC60pi54
+  55  POISSON+FC60pi55  1.0000   0.0215   POISSON+FC60pi55
+  56  POISSON+FC60pi56  1.0000   0.0199   POISSON+FC60pi56
+  57  POISSON+FC60pi57  1.0000   0.0039   POISSON+FC60pi57
+  58  POISSON+FC60pi58  1.0000   0.0113   POISSON+FC60pi58
+  59  POISSON+FC60pi59  1.0000   0.0129   POISSON+FC60pi59
+  60  POISSON+FC60pi60  1.0000   0.0118   POISSON+FC60pi60
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2852
+
+ Category  Relative_rate  Proportion
+  1         0.0042         0.2500
+  2         0.0931         0.2500
+  3         0.5701         0.2500
+  4         3.3326         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-909085.0668
+2	-909085.0668
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -909085.0668 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -871534.8262
+Number of free parameters (#branches + #model parameters): 34
+Akaike information criterion (AIC) score: 1818238.1335
+Corrected Akaike information criterion (AICc) score: 1818238.1528
+Bayesian information criterion (BIC) score: 1818568.7488
+
+Total tree length (sum of branch lengths): 0.8621
+Sum of internal branch lengths: 0.2448 (28.3971% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A_curv' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--A_curv
+|
+|  +------A_gros
++--| (100)
+|  |      +--------A_qlan
+|  |  +---| (100)
+|  |  |   +-------Belon
+|  +--| (100)
+|     |                                          +------Aulac
+|     |                                       +--| (100)
+|     |                                       |  +---------Isoco
+|     |                                    +--| (82)
+|     |                                    |  +--------Aylax
+|     |                     +--------------| (100)
+|     |                     |              +-----------Hedic
+|     |                  +--| (100)
+|     |                  |  |  +--------------------------Qwaqw
+|     |                  |  +--| (53)
+|     |                  |     |                           +---S_gif
+|     |                  |     |                        +--| (100)
+|     |                  |     |                        |  |    +--S_jap
+|     |                  |     |                        |  +----| (100)
+|     |                  |     |                        |       +--S_umb
+|     |                  |     +------------------------| (100)
+|     |                  |                              +----S_ito
+|     |               +--| (100)
+|     |               |  +-----------------------Diast
+|     |            +--| (100)
+|     |            |  +-----------------------Cerop
+|     |       +----| (100)
+|     |       |    +---------------Proto
+|     +-------| (100)
+|             +--------------------Calli
+|
++----A_qram
+
+Tree in newick format:
+
+(A_curv:0.0108387423,(A_gros:0.0214501836,((A_qlan:0.0277521859,Belon:0.0264649228)100:0.0150204479,((((((((Aulac:0.0241222086,Isoco:0.0315450502)100:0.0082546709,Aylax:0.0298808243)82:0.0019368700,Hedic:0.0385017564)100:0.0455563427,(Qwaqw:0.0827366275,((S_gif:0.0151092154,(S_jap:0.0075184201,S_umb:0.0074878404)100:0.0161889358)100:0.0051749410,S_ito:0.0154181224)100:0.0763762121)53:0.0033025415)100:0.0103648730,Diast:0.0736655604)100:0.0039051387,Cerop:0.0732183641)100:0.0081802242,Proto:0.0497132960)100:0.0163552420,Calli:0.0658000415)100:0.0254912675)100:0.0025545892)100:0.0061352484,A_qram:0.0160317705);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -909085.06680000
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--A_curv
+|
+|  +------A_gros
++--| (100)
+|  |      +--------A_qlan
+|  |  +---| (100)
+|  |  |   +-------Belon
+|  +--| (100)
+|     |                                          +------Aulac
+|     |                                       +--| (100)
+|     |                                       |  +---------Isoco
+|     |                                    +--| (82)
+|     |                                    |  +--------Aylax
+|     |                     +--------------| (100)
+|     |                     |              +-----------Hedic
+|     |                  +--| (100)
+|     |                  |  |  +--------------------------Qwaqw
+|     |                  |  +--| (53)
+|     |                  |     |                           +---S_gif
+|     |                  |     |                        +--| (100)
+|     |                  |     |                        |  |    +--S_jap
+|     |                  |     |                        |  +----| (100)
+|     |                  |     |                        |       +--S_umb
+|     |                  |     +------------------------| (100)
+|     |                  |                              +----S_ito
+|     |               +--| (100)
+|     |               |  +-----------------------Diast
+|     |            +--| (100)
+|     |            |  +-----------------------Cerop
+|     |       +----| (100)
+|     |       |    +---------------Proto
+|     +-------| (100)
+|             +--------------------Calli
+|
++----A_qram
+
+
+Consensus tree in newick format: 
+
+(A_curv:0.0108381797,(A_gros:0.0214488743,((A_qlan:0.0277517429,Belon:0.0264647644)100:0.0150197451,((((((((Aulac:0.0241214496,Isoco:0.0315440555)100:0.0082541911,Aylax:0.0298796860)82:0.0019370437,Hedic:0.0385002414)100:0.0455553361,(Qwaqw:0.0827332335,((S_gif:0.0151084887,(S_jap:0.0075174402,S_umb:0.0074875246)100:0.0161884127)100:0.0051755044,S_ito:0.0154171830)100:0.0763729200)53:0.0033023264)100:0.0103643569,Diast:0.0736634820)100:0.0039051295,Cerop:0.0732167251)100:0.0081794663,Proto:0.0497123017)100:0.0163551007,Calli:0.0657980443)100:0.0254913643)100:0.0025553860)100:0.0061343519,A_qram:0.0160314949);
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct 22 10:22:06 2021
+Total CPU time used: 252498.8124 seconds (70h:8m:18s)
+Total wall-clock time used: 13646.65365 seconds (3h:47m:26s)
+

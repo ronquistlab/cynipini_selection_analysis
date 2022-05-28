@@ -1,0 +1,214 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r425.uppmax.uu.se (AVX2, FMA3, 125 GB RAM)
+Command: ../iqtree-1.6.12-Linux/bin/iqtree -s ../../Andricus/MSCO/4sets_275genes50codW18species/A275r50-18-1.phy -nt 19 -m C60 -pre C60-A275-50-18-1 --runs 2 -bb 1000
+Seed:    644170 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  7 19:00:07 2021
+Kernel:  AVX+FMA - 19 threads (20 CPU cores detected)
+
+Reading alignment file ../../Andricus/MSCO/4sets_275genes50codW18species/A275r50-18-1.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 18 sequences with 120406 columns, 32393 distinct patterns
+22074 parsimony-informative, 17802 singleton sites, 80530 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  A_curv    1.73%    passed     62.51%
+   2  A_gros    4.14%    passed     63.03%
+   3  A_qlan    5.74%    passed     60.67%
+   4  A_qram    1.96%    passed     55.93%
+   5  Aulac     0.72%    passed     99.86%
+   6  Aylax     0.65%    passed     99.65%
+   7  Belon     0.27%    passed     94.49%
+   8  Calli     4.17%    passed     95.79%
+   9  Cerop     2.84%    passed     99.71%
+  10  Diast     3.44%    passed     77.66%
+  11  Hedic     1.67%    passed     99.84%
+  12  Isoco     2.19%    passed     99.63%
+  13  Proto     7.77%    passed    100.00%
+  14  Qwaqw     4.86%    passed     33.08%
+  15  S_gif     2.14%    passed     64.87%
+  16  S_ito     1.94%    passed     98.68%
+  17  S_jap     1.42%    passed     99.10%
+  18  S_umb     0.79%    passed     99.50%
+****  TOTAL     2.69%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000830523 for long alignment
+
+---> START RUN NUMBER 1 (seed: 644170)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.183 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 644170)...
+Model C60 is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+
+NOTE: 21759 MB RAM (21 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -901025.918
+2. Current log-likelihood: -890093.043
+3. Current log-likelihood: -890035.910
+Optimal log-likelihood: -890035.863
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 0.273
+Parameters optimization took 3 rounds (91.424 sec)
+Computing ML distances based on estimated model parameters... 0.244 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -889931.448
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 13.069 second
+Computing log-likelihood of 98 initial trees ... 1396.078 seconds
+Current best score: -889931.448
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -889926.858
+Iteration 10 / LogL: -889927.039 / Time: 0h:38m:26s
+Iteration 20 / LogL: -889927.816 / Time: 0h:53m:44s
+Finish initializing candidate tree set (1)
+Current best tree score: -889926.858 / CPU time: 3088.283
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -889927.503 / Time: 1h:13m:49s (3h:0m:42s left)
+Iteration 40 / LogL: -889926.949 / Time: 1h:36m:26s (2h:30m:50s left)
+Iteration 50 / LogL: -889927.089 / Time: 1h:56m:20s (2h:1m:4s left)
+Log-likelihood cutoff on original alignment: -889958.997
+Iteration 60 / LogL: -889935.216 / Time: 2h:20m:0s (1h:37m:17s left)
+Iteration 70 / LogL: -889927.182 / Time: 2h:41m:49s (1h:12m:42s left)
+Iteration 80 / LogL: -889927.175 / Time: 3h:1m:31s (0h:48m:15s left)
+Iteration 90 / LogL: -889926.928 / Time: 3h:21m:37s (0h:24m:55s left)
+Iteration 100 / LogL: -889927.858 / Time: 3h:46m:8s (0h:2m:17s left)
+Log-likelihood cutoff on original alignment: -889959.794
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 3h:49m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -889926.858
+Optimal log-likelihood: -889926.858
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 0.273
+Parameters optimization took 1 rounds (23.829 sec)
+BEST SCORE FOUND : -889926.858
+Creating bootstrap support values...
+Split supports printed to NEXUS file C60-A275-50-18-1.splits.nex
+Total tree length: 0.883
+
+Total number of iterations: 102
+CPU time used for tree search: 252886.438 sec (70h:14m:46s)
+Wall-clock time used for tree search: 13637.223 sec (3h:47m:17s)
+Total CPU time used: 255786.759 sec (71h:3m:6s)
+Total wall-clock time used: 13797.887 sec (3h:49m:57s)
+
+Computing bootstrap consensus tree...
+Reading input file C60-A275-50-18-1.splits.nex...
+18 taxa and 37 splits.
+Consensus tree written to C60-A275-50-18-1.contree
+Reading input trees file C60-A275-50-18-1.contree
+Log-likelihood of consensus tree: -889926.858
+
+---> START RUN NUMBER 2 (seed: 645170)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.139 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 645170)...
+Model C60 is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+
+NOTE: 21759 MB RAM (21 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -901025.918
+2. Current log-likelihood: -890093.043
+3. Current log-likelihood: -890035.910
+Optimal log-likelihood: -890035.863
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 0.273
+Parameters optimization took 3 rounds (88.711 sec)
+Computing ML distances based on estimated model parameters... 1.484 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -889931.448
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 13.321 second
+Computing log-likelihood of 98 initial trees ... 1390.990 seconds
+Current best score: -889931.448
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -889926.858
+Iteration 10 / LogL: -889927.014 / Time: 0h:39m:32s
+Iteration 20 / LogL: -889927.085 / Time: 0h:57m:24s
+Finish initializing candidate tree set (1)
+Current best tree score: -889926.858 / CPU time: 3309.968
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -889927.102 / Time: 1h:14m:46s (3h:3m:1s left)
+Iteration 40 / LogL: -889932.266 / Time: 1h:34m:45s (2h:28m:12s left)
+Iteration 50 / LogL: -889928.531 / Time: 1h:52m:13s (1h:56m:47s left)
+Log-likelihood cutoff on original alignment: -889963.347
+Iteration 60 / LogL: -889926.900 / Time: 2h:11m:22s (1h:31m:17s left)
+Iteration 70 / LogL: -889928.283 / Time: 2h:32m:20s (1h:8m:26s left)
+Iteration 80 / LogL: -889926.865 / Time: 2h:52m:18s (0h:45m:48s left)
+Iteration 90 / LogL: -889927.489 / Time: 3h:11m:31s (0h:23m:40s left)
+Iteration 100 / LogL: -889926.924 / Time: 3h:32m:2s (0h:2m:8s left)
+Log-likelihood cutoff on original alignment: -889962.539
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 3h:36m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -889926.858
+Optimal log-likelihood: -889926.858
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 0.273
+Parameters optimization took 1 rounds (18.438 sec)
+BEST SCORE FOUND : -889926.858
+Creating bootstrap support values...
+Split supports printed to NEXUS file C60-A275-50-18-1.splits.nex
+Total tree length: 0.883
+
+Total number of iterations: 102
+CPU time used for tree search: 238450.090 sec (66h:14m:10s)
+Wall-clock time used for tree search: 12853.069 sec (3h:34m:13s)
+Total CPU time used: 241226.090 sec (67h:0m:26s)
+Total wall-clock time used: 13006.140 sec (3h:36m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file C60-A275-50-18-1.splits.nex...
+18 taxa and 37 splits.
+Consensus tree written to C60-A275-50-18-1.contree
+Reading input trees file C60-A275-50-18-1.contree
+Log-likelihood of consensus tree: -889926.858
+
+---> SUMMARIZE RESULTS FROM 2 RUNS
+
+Run 2 gave best log-likelihood: -889926.858
+Model C60 is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+Split supports printed to NEXUS file C60-A275-50-18-1.splits.nex
+Consensus tree written to C60-A275-50-18-1.contree
+Total CPU time for 2 runs: 498422.737 seconds.
+Total wall-clock time for 2 runs: 26883.278 seconds.
+
+
+Analysis results written to: 
+  IQ-TREE report:                C60-A275-50-18-1.iqtree
+  Maximum-likelihood tree:       C60-A275-50-18-1.treefile
+  Trees from independent runs:   C60-A275-50-18-1.runtrees
+  Likelihood distances:          C60-A275-50-18-1.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C60-A275-50-18-1.splits.nex
+  Consensus tree:                C60-A275-50-18-1.contree
+  Screen log file:               C60-A275-50-18-1.log
+
+Date and Time: Fri Oct  8 02:28:11 2021

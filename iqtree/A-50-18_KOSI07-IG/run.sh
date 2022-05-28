@@ -9,7 +9,7 @@
 
 echo $(date)
 
-../iqtree-1.6.12-Linux/bin/iqtree -s ../data/50-18.phy -nt 19 -m KOSI07+G+I -pre A-50-18codGIb --runs 2 -st CODON -bb 1000
+../iqtree-1.6.12-Linux/bin/iqtree -s ../../data/50-18.phy -nt 19 -m KOSI07+G+I -pre A-50-18codGIb --runs 2 -st CODON -bb 1000
 
 wait
 echo $(date)
